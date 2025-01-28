@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:wght@400;500;700&display=swap');
+:root{
+--primery :#000;
+--light:#fff;
+--secondary :rgb(24 ,24 ,27) ;
+--border:rgba(63,63,70,0.4);
+--title:rgb(244 , 244,245);
+--subtitle:rgb(161,161,170);
+--bg-header:rgb(39 , 39,42);
+--blu:rgb(93,188,252);
+--icon-hover:#d4d4d8;
+/* ==================numeric variables ============== */
+--container-padding:4.8rem;
+}
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+body{
+background-color: var(--light);
+font-family: roboto;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+
+}
+
+body {
+  background-color:var(--primery);
+  color: #fff;
+}
+.container
+{
+  border: 2px solid var (--border);
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--secondary);
+  padding: 0 var(--container-padding);
+}
+
+.divider{
+  border: 1px solid var(--border);
+  width: calc(100% + var(--container-padding) + va(--container-padding) );
+  margin: 3rem 0;
+  margin-left:calc(var(--container-padding) * -1) ;
+  margin-right:calc(var(--container-padding) * -1) ;
+}
+
+
+@media (max-width:1000px) {
+  .container{
+    --container-padding:1.7rem;
+    width: 90%;
+    padding: 0 var(--container-padding);
+  
+  }
+.divider{
+width: calc(100% + var(--container-padding) + var(--container-padding) );
+margin-left: calc(var(--container-padding) * -1  );
+}
+
+
+}
+
+@media (max-width:600px) {
+  .container{
+    width: 98%;
+    padding: 0 var(--container-padding);
+  }
+  
+}
