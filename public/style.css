@@ -59,6 +59,9 @@
 .icon-linkedin-square:before {
   content: "\f08c";
 }
+.icon-github:before {
+  content: "\f09b";
+}
 .icon-github-square:before {
   content: "\f092";
 }
@@ -80,7 +83,4 @@
 .icon-twitter:before {
   content: "\ea96";
 }
-/* @media (max-width:500px) {
-.container{
-width: 98%;
-} */
+

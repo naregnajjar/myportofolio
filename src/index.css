@@ -5,9 +5,9 @@
 --secondary :rgb(24 ,24 ,27) ;
 --border:rgba(63,63,70,0.4);
 --title:rgb(244 , 244,245);
---subtitle:rgb(161,161,170);
+--sub-title:rgb(161,161,170);
 --bg-header:rgb(39 , 39,42);
---blu:rgb(93,188,252);
+--blue:rgb(93,188,252);
 --icon-hover:#d4d4d8;
 /* ==================numeric variables ============== */
 --container-padding:4.8rem;
@@ -26,6 +26,13 @@ font-family: roboto;
   display: flex;
   align-items: center;
 
+}
+button{
+  all:unset;
+}
+button:hover
+{
+  cursor: pointer;
 }
 
 body {

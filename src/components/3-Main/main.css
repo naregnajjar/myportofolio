@@ -1,0 +1,75 @@
+ /* ==================
+Table of Contents 
+1- left side  that contains sidenavbar
+2-Right siede    that contains project cards 
+================== */
+
+
+
+main.flex{
+    gap: 3rem;
+    align-items: start;
+}
+
+/* 1- left side   starts  that contains sidenavbar */
+main section.flex.menu
+{
+
+    flex-direction: column-reverse; 
+    gap:10px;
+
+}
+
+
+main section.menu  button
+{
+    background-color: rgba(36,37,46,1);
+    width: 11rem;
+    padding: 0.7rem;
+    text-align: center;
+    font-size: 1.05rem;
+    text-transform: capitalize;
+    opacity: 0.5;
+    transition: 0.5s;
+
+}
+main section.menu  button:hover{
+    opacity: 1;
+}
+
+main section.menu  button.active
+{
+opacity: 1;
+font-weight: bold;
+letter-spacing: 0.6px;
+padding: 0.8rem 0 ;
+border:1px solid var(--blue)
+}
+
+/* 1- left side   ends */
+
+
+
+/* 2-Right siede that contains project cards  starts  */
+
+main section.project-cards
+{
+    flex-grow:1;
+}
+
+.cards .box
+{
+    padding:1rem 0.4rem;
+}
+
+.cards .box .title{
+    color: var(--title);
+
+}
+
+article.cards .box .sub-title{
+    color: var(--sub-title);
+    font-size: 0.8rem;
+margin-top: 1rem;
+}
+/* 2-Right siede  ends  */

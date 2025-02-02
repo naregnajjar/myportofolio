@@ -40,7 +40,7 @@ a:hover
 {
         text-decoration: none;
         color:initial;
-        color: var(--blu);
+        color: var(--blue);
         opacity: 1;
         font-size: 0.9rem;
         font-weight: 500;
@@ -68,6 +68,7 @@ position:fixed;
 inset: 0;
 z-index: 11;
 background-color: rgba(28, 28, 32, 0.91);
+backdrop-filter:blur(4px);
 }
 
 .model
@@ -81,6 +82,9 @@ margin-top: 2rem;
 border: none;
 border-radius: 1rem ;
 padding: 1rem 2rem ;
+
+
+
 }
 .model li {
 
