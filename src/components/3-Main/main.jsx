@@ -15,112 +15,123 @@ const Main = () => {
 
       <section className="project-cards ">
         <article className="card">
-          <img width={266 } src="../../assets/proj_1.jpg" alt=""  />
-          <div className="box"style={{width:"266px"}}>
+          <img width={266} src="../../../public/proj_1.JPG" alt="" />
+          <div className="box" style={{ width: "266px" }}>
             <h1 className="title">Landing Page 1</h1>
-           <p className="sub-title">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus  </p>
-            <div className="flex">
-              <div className="icon-link">
-               </div>
+            <p className="sub-title">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus
+            </p>
+            <div className="flex icons">
+<div style={{gap:"11px"}} className="flex">
+<div className="icon-link"></div>
 
-              <div className="icon-github">
-              </div>
+<div className="icon-github"></div>
+</div>
               <a href="">
-                <span className="icon-arrow-right">
-
-                </span>
+               More <span className="icon-arrow-right"></span>
               </a>
             </div>
           </div>
         </article>
 
         <article className="card">
-          <img width={266 } src="" alt=""  />
-          <div className="box"style={{width:"266px"}}>
-            <h1 className="title">Landing Page 2</h1> <p className="sub-title"> </p>
-            <div className="flex">
-              <div className="icon-link">
-                <span> </span>
-              </div>
-              <div className="icon-github">
-              </div>
-              <a href="">
-                <span className="icon-arrow-right">
+          <img width={266} src="../../../public/proj_2.JPG" alt="" />
+          <div className="box" style={{ width: "266px" }}>
+          <h1 className="title">Landing Page 1</h1>
+            <p className="sub-title">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus
+            </p>
+            <div className="flex icons">
+<div style={{gap:"11px"}} className="flex">
+<div className="icon-link"></div>
 
-                </span>
+<div className="icon-github"></div>
+</div>
+              <a href="">
+               More <span className="icon-arrow-right"></span>
               </a>
             </div>
           </div>
         </article>
         <article className="card">
-          <img width={266 } src="" alt=""  />
-          <div className="box"style={{width:"266px"}}>
-            <h1 className="title">Landing Page 3</h1> <p className="sub-title"> </p>
-            <div className="flex">
-              <div className="icon-link">
-                <span> </span>
-              </div>
-              <div className="icon-github">
-              </div>
-              <a href="">
-                <span className="icon-arrow-right">
+          <img width={266} src="../../../public/proj_3.JPG" alt="" />
+          <div className="box" style={{ width: "266px" }}>
+          <h1 className="title">Landing Page 1</h1>
+            <p className="sub-title">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus
+            </p>
+            <div className="flex icons">
+<div style={{gap:"11px"}} className="flex">
+<div className="icon-link"></div>
 
-                </span>
+<div className="icon-github"></div>
+</div>
+              <a href="">
+               More <span className="icon-arrow-right"></span>
               </a>
             </div>
           </div>
         </article>
         <article className="card">
-          <img width={266 } src="" alt=""  />
-          <div className="box"style={{width:"266px"}}>
-            <h1 className="title">Landing Page 4</h1> <p className="sub-title"> </p>
-            <div className="flex">
-              <div className="icon-link">
-                <span> </span>
-              </div>
-              <div className="icon-github">
-              </div>
-              <a href="">
-                <span className="icon-arrow-right">
+          <img width={266} src="../../../public/proj_4.JPG" alt="" />
+          <div className="box" style={{ width: "266px" }}>
+          <h1 className="title">Landing Page 1</h1>
+            <p className="sub-title">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus
+            </p>
+            <div className="flex icons">
+<div style={{gap:"11px"}} className="flex">
+<div className="icon-link"></div>
 
-                </span>
+<div className="icon-github"></div>
+</div>
+              <a href="">
+               More <span className="icon-arrow-right"></span>
               </a>
             </div>
           </div>
         </article>
         <article className="card">
-          <img width={266 } src="" alt=""  />
+          <img width={266} src="../../../public/proj_5.JPG" alt="" />
 
-          <div className="box"style={{width:"266px"}}>
-            <h1 className="title">Landing Page 5</h1> <p className="sub-title"> </p>
-            <div className="flex">
-              <div className="icon-link">
-                <span> </span>
-              </div>
-              <div className="icon-github">
-              </div>
+          <div className="box" style={{ width: "266px" }}>
+          <h1 className="title">Landing Page 1</h1>
+            <p className="sub-title">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus
+            </p>
+            <div className="flex icons">
+<div style={{gap:"11px"}} className="flex">
+<div className="icon-link"></div>
+
+<div className="icon-github"></div>
+</div>
               <a href="">
-                <span className="icon-arrow-right">
-
-                </span>
+               More <span className="icon-arrow-right"></span>
               </a>
             </div>
           </div>
         </article>
         <article className="card">
-          <img width={266 } src="" alt=""  />
-          <div className="box"style={{width:"266px"}}>
-            <h1 className="title">Landing Page 6</h1> <p className="sub-title"> </p>
-            <div className="flex">
-              <div className="icon-link">
-                <span> </span>
-              </div>
-              <div className="icon-github">
-              </div>
-              <a href="">
-                <span className="icon-arrow-right">
+          <img width={266} src="../../../public/proj_6.JPG" alt="" />
+          <div className="box" style={{ width: "266px" }}>
+          <h1 className="title">Landing Page 1</h1>
+            <p className="sub-title">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+              Accusamus
+            </p>
+            <div className="flex icons">
+<div style={{gap:"11px"}} className="flex">
+<div className="icon-link"></div>
 
-                </span>
+<div className="icon-github"></div>
+</div>
+              <a href="">
+               More <span className="icon-arrow-right"></span>
               </a>
             </div>
           </div>

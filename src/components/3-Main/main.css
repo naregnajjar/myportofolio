@@ -70,6 +70,15 @@ main section.project-cards
 article.cards .box .sub-title{
     color: var(--sub-title);
     font-size: 0.8rem;
-margin-top: 1rem;
+    margin-top: 1rem;
+}
+
+article.cards .box .icons
+{
+justify-content: space-between;
+}
+.card .icon-github , .card .icon-link{
+    font-size: 1.2rem ;
+    color:var(--sub-title);
 }
 /* 2-Right siede  ends  */
