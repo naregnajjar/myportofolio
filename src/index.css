@@ -25,7 +25,6 @@ font-family: roboto;
 .flex{
   display: flex;
   align-items: center;
-
 }
 button{
   all:unset;

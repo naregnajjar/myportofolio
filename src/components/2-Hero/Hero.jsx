@@ -30,7 +30,7 @@ Self Tought Developer
 
 
 
-<div className="right-section animation border">animation</div>
+<div className="right-section border animation ">animation</div>
 
 </section>
     );

@@ -15,8 +15,7 @@ function App() {
 <Main /><div className='divider'/>
 <Contact /><div className='divider'/>
 <Footer /><div className='divider'/>
-
-    </div>
+  </div>
   )
 }
 
