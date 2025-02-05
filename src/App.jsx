@@ -9,12 +9,17 @@ import Footer from './components/5-footer/footer'
 function App() {
 
   return (
-    <div className='container'>
+    <div className='container' id='up'>
 <Header />
 <Hero /><div className='divider'/>
 <Main /><div className='divider'/>
 <Contact /><div className='divider'/>
 <Footer /><div className='divider'/>
+
+<a href="#up">
+<button className='icon-keyboard_arrow_up scrollTop' id=''> </button>
+  </a>
+  
   </div>
   )
 }

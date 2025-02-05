@@ -1,37 +1,41 @@
-import React from 'react';
-import './contactUs.css';
+import React from "react";
+import "./contactUs.css";
 
-const contact = () =>
-{
-    return (
- <section className='conact-us '>
-        {/* ===========top============ */}
-        <div className='top'> 
+const contact = () => {
+  return (
+    <section className="contact-us  ">
+      {/* ===========top============ */}
+      <div className="top">
+        <h1 className="title">
+          <span className="icon-envelope"></span>
+          ContactUs
+        </h1>
+        <p className="sub-title">
+          Contact us for more information and Get notified when I publish
+          somthing new .
+        </p>
+      </div>
 
-<h1 className='title'>
-    <span className='icon-envelope'></span>
-    ContactUs
-    </h1>
-    <p>Contact us for more information and Get notified when I publish somthing new .</p>
-</div> 
-{/* =============left============== */}
-<div className='left flex border'> 
-<form action="border">
-<label htmlFor="email">Email Address:</label> 
-<input type="email" name="" id="email" />
-<label htmlFor="message">Message:</label> 
-<textarea  name="" id="message" />
-</form>
-<div className="animation"></div> 
-
+        <form  className="">
+<div className="flex">
+<label htmlFor="email">Email Address:</label>
+<input required type="email" name="" id="email" />
 </div>
-{/* ==============right========== */}
-<div className='left'> 
-
+        
+<div className="flex" style={{marginTop:"24px"}}> 
+<label htmlFor="message">Your Message:</label>
+<textarea required  name="message" id="message" />
 </div>
- </section>
 
-    );
-}
+        <button type="submit" className="submit">Submit</button>
+<div className="border animation">
+    animation   
+</div>
+        
+        </form>
 
-export default contact ;
+    </section>
+  );
+};
+
+export default contact;
