@@ -1,15 +1,19 @@
 import React from "react";
 import "./main.css";
+import { useState } from "react";
+
+
 
 const Main = () => {
+  const [currentactive, setCurrentActive] = useState("all");
   return (
     <main className="flex">
       <section className=" flex  project-menu active ">
-        <button>All Projects</button>
-        <button>Html Css </button>
-        <button>JavaScript</button>
+        <button  onClick={() => { setCurrentActive === "all" }}  className={currentactive === "all" ? "active" : null}>All Projects</button>
+        <button  onClick={() => { setCurrentActive === "css" }}  className={currentactive === "css" ? "active" : null}>Html Css </button>
+        {/* <button>JavaScript</button>
         <button>React & MUI</button>
-        <button>Node Express</button>
+        <button>Node Express</button> */}
       </section>
       {/* ====================================================== */}
  

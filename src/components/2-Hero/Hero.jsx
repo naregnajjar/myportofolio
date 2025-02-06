@@ -1,14 +1,14 @@
 import React from 'react';
 import './Hero.css';
 
-const Hero = () => 
+const Hero = () =>
 {
-    return (  
+    return (
 <section  className='hero flex'>
 <div className="left-section">
     <div className="parent-avatar">
 <img src="../../../public/my-modified.png" className='avatar' alt="logo" />
-        <span className='icon-verified'></span> 
+        <span className='icon-verified'></span>
         <h1 className="title">
 Software designer, founder, and amateur astronaut.
 </h1>
